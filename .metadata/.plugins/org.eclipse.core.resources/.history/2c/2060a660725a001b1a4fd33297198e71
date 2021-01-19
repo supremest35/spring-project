@@ -1,0 +1,25 @@
+package kr.co.hta.web.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import kr.co.hta.web.vo.Book;
+import kr.co.hta.web.vo.Category;
+
+@Service
+public class BookServiceImpl implements BookService {
+
+	@Override
+	public List<Category> getAllCategories() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Book> getBooks(int categoryType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

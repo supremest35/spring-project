@@ -1,0 +1,10 @@
+package kr.co.hta.web.service;
+
+import java.util.List;
+
+import kr.co.hta.web.vo.Book;
+
+public interface BookService {
+
+	List<Book> getBooks
+}
